@@ -1,23 +1,11 @@
 @charset "UTF-8";
 
-/*#11192C
-#FFFC74*/
-
-
-/*Color Theme Swatches in Hex
-#A1A2A6
-#024959
-#F2C335
-#F2AE30
-#593E25*/
-
-/* Color Theme Swatches in Hex
-.Shadow-and-Light.-1-hex { color: #222601; }
-.Shadow-and-Light.-2-hex { color: #3E4001; }
-.Shadow-and-Light.-3-hex { color: #8C7503; }
-.Shadow-and-Light.-4-hex { color: #73553C; }
-.Shadow-and-Light.-5-hex { color: #BFA393; }
-*/
+/* Color Theme Swatches in Hex 
+.The-inscription-Agro-on-the-background-of-a-potato-plantation-field.-Agribusiness-and-agro-industry.-Agriculture.-The-use-of-innovative-technologies,-equipment-and-fertilizers.-Beautiful-landscape-1-hex { color: #365902; }
+.The-inscription-Agro-on-the-background-of-a-potato-plantation-field.-Agribusiness-and-agro-industry.-Agriculture.-The-use-of-innovative-technologies,-equipment-and-fertilizers.-Beautiful-landscape-2-hex { color: #8AA624; }
+.The-inscription-Agro-on-the-background-of-a-potato-plantation-field.-Agribusiness-and-agro-industry.-Agriculture.-The-use-of-innovative-technologies,-equipment-and-fertilizers.-Beautiful-landscape-3-hex { color: #CED9A7; }
+.The-inscription-Agro-on-the-background-of-a-potato-plantation-field.-Agribusiness-and-agro-industry.-Agriculture.-The-use-of-innovative-technologies,-equipment-and-fertilizers.-Beautiful-landscape-4-hex { color: #BFB636; }
+.The-inscription-Agro-on-the-background-of-a-potato-plantation-field.-Agribusiness-and-agro-industry.-Agriculture.-The-use-of-innovative-technologiecolor: #F2F2F2; }*/
 
 :root{
     font-family: Arial, Helvetica, sans-serif;
@@ -56,20 +44,20 @@ main{
             font-family: var(--fonte-android);
             color: var(--cor4);
             font-size: 1.3em;
-            background-image: linear-gradient(to right, yellow, transparent); /*para fazer um degrader de uma determinada cor até o transparente*/
+            background-image: linear-gradient(to right, #BFB636, transparent); /*para fazer um degrader de uma determinada cor até o transparente*/
             text-indent: 6px;/*para o título não ficar muito grudado na esquerda da caixa, pode usar um padding também*/
             /*font-weight: normal;*/
         }
 
 
 aside{
-    background-color: bisque;
+    background-color: #CED9A7;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.400);
 }
     aside > h3{
-        background-color: #11192C;
+        background-color: #365902;
         color: white;
         padding: 10px;
         margin: -10px -10px 0px -10px;/*colocando um valor negativo a margem cresce "para fora"*/
@@ -91,4 +79,8 @@ footer {
 
 .equipe{
     border-radius: 50%;
+}
+
+.teste{
+    text-align: center;
 }
