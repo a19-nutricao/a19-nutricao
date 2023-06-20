@@ -83,7 +83,7 @@ footer {
     text-align: center;
     font-size: 1em;
     padding: 5px;
-    height: 100px;
+    height: 150px;
 }
         footer > a {
             color: white;
@@ -95,4 +95,8 @@ footer {
 .teste{
     text-align: justify;
     font-size: 0.8em;
+}
+
+.nome{
+    font-size: 1.4em;
 }
