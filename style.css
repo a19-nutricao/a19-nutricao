@@ -10,8 +10,14 @@
 :root{
     font-family: Arial, Helvetica, sans-serif;
 }
-img{
+
+div{
+    max-height: 500px;
     max-width: 300px;
+}
+img{
+    max-width: 140px;
+   
 }
 
 header {
