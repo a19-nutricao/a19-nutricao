@@ -4,6 +4,21 @@
 #FFFC74*/
 
 
+/*Color Theme Swatches in Hex
+#A1A2A6
+#024959
+#F2C335
+#F2AE30
+#593E25*/
+
+/* Color Theme Swatches in Hex */
+.Shadow-and-Light.-1-hex { color: #222601; }
+.Shadow-and-Light.-2-hex { color: #3E4001; }
+.Shadow-and-Light.-3-hex { color: #8C7503; }
+.Shadow-and-Light.-4-hex { color: #73553C; }
+.Shadow-and-Light.-5-hex { color: #BFA393; }
+
+
 :root{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,6 +45,23 @@ main{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+aside{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.400);
+}
+    aside > h2{
+        background-color: #11192C;
+        color: white;
+        padding: 10px;
+        margin: -10px -10px 0px -10px;/*colocando um valor negativo a margem cresce "para fora"*/
+        border-radius: 10px 10px 0px 0px;
+    }
+    aside > ul{
+        list-style-position: inside;/*muda o padrão da bolinha, que é está fora, para dentro*/
+        /*columns: 2;/*para dividir uma lista em 2 colunas*/
+    }
 
 footer {
     background-color: aqua;
