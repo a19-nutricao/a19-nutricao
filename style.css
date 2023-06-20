@@ -85,7 +85,9 @@ footer {
     padding: 5px;
     height: 100px;
 }
-
+        footer > a {
+            color: white;
+        }
 .equipe{
     border-radius: 50%;
 }
