@@ -71,6 +71,7 @@ aside{
         padding: 10px;
         margin: -10px -10px 0px -10px;/*colocando um valor negativo a margem cresce "para fora"*/
         border-radius: 10px 10px 0px 0px;
+        width: 100%;
     }
     aside > ul{
         /*list-style-position: inside;/*muda o padrão da bolinha, que é está fora, para dentro*/
@@ -110,5 +111,5 @@ footer {
     margin-bottom: 0px;
 }
 .logo{
-    width: 98%;
+    max-width: 420px;
 }
