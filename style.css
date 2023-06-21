@@ -57,6 +57,10 @@ main{
             text-indent: 6px;/*para o título não ficar muito grudado na esquerda da caixa, pode usar um padding também*/
             /*font-weight: normal;*/
         }
+        main h1{
+            background-image: linear-gradient(to right, #dfd43f, transparent); /*para fazer um degrader de uma determinada cor até o transparente*/
+            text-indent: 6px;
+        }
 
 
 aside{
