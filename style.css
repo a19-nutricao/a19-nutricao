@@ -18,9 +18,9 @@ div{
     max-height: 500px;
     max-width: 300px;
 }
+
 img{
     max-width: 140px;
-   
 }
 
 header {
@@ -90,14 +90,18 @@ footer {
         }
 .equipe{
     border-radius: 50%;
+    text-align: center;
+    margin: auto;
 }
 
 .teste{
     text-align: justify;
     font-size: 0.8em;
+    
 }
 
 .nome{
     font-size: 1.4em;
     font-weight: bolder;
+    /*text-align: center;*/
 }
